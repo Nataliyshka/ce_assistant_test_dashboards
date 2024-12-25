@@ -2,13 +2,15 @@ import requests
 import json
 from client.assistant.enum import RoleUser
 from client.assistant.model.auth import AuthRequest, AuthResponse
-from client.assistant.model.report import Division, ReportRequest, ReportResponse
+from client.assistant.model.report import ReportRequest, ReportResponse
 from client.assistant.model.store import StoreResponse
 from client.utils import check_status_code
 from config import settings
 
 
 class AssistantClient:
+    """Клиент для работы с ЦЕ Ассистентом
+    """
     def __init__(self, role: RoleUser) -> None:
         self.__base_url__: str = settings.BASE_URL
         self.__base_url_auth: str = settings.BASE_AUTH_URL
@@ -32,8 +34,16 @@ class AssistantClient:
         self,
         dateStart: str | None = None,
         dateEnd: str | None = None,
-        divisions: list[Division] | None = None,
+        divisions: list[str] | None = None,
     ) -> ReportResponse:
+        """Получение отчета о продажах
+        Args:
+            dateStart (str | None): Дата начала периода
+            dateEnd (str | None): Дата конца периода
+            divisions (list[str] | None): Список подразделений
+        Returns:
+            ReportResponse: Ответ от сервиса
+        """
         req = ReportRequest(dateStart=dateStart, dateEnd=dateEnd, divisions=divisions)
         resp = self.__session.post(
             self.__base_url__ + "/api/report/sales", json=req.model_dump()
@@ -44,6 +54,10 @@ class AssistantClient:
     
 
     def get_stores(self) -> StoreResponse:
+        """Получение списка магазинов
+        Returns:
+            StoreResponse: Ответ от сервиса
+        """
         resp = self.__session.get(self.__base_url__ + "/api/store/all")
         assert check_status_code(resp.status_code), "status code is not positive"
         validated_resp = StoreResponse(**resp.json())

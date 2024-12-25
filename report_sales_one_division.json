@@ -1,0 +1,290 @@
+{
+    "dateStart": "2024-12-01T00:00:00Z",
+    "dateEnd": "2024-12-25T07:04:18.668899505Z",
+    "data": [
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "d1f20d26-e79a-11ec-80cd-1402ec7abf4d",
+            "managerName": "Захаров Юрий",
+            "amount": 208509951,
+            "quantity": 105,
+            "assistantAmount": 128000,
+            "assistantQuantity": 1
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "6a3530fb-e7ce-11ec-80cd-1402ec7abf4d",
+            "managerName": "Малин Олег",
+            "amount": -19400,
+            "quantity": 5,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "838aab94-e93f-11ec-80cd-1402ec7abf4d",
+            "managerName": "Комаров Роман",
+            "amount": -69900,
+            "quantity": 1,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "d75db449-e94d-11ec-80cd-1402ec7abf4d",
+            "managerName": "Дегтярева Наиля",
+            "amount": -399900,
+            "quantity": 1,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "13f56521-77a3-11ed-80d0-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": -449900,
+            "quantity": 1,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "a1d44cbe-88e4-11ed-80d0-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": -1273900,
+            "quantity": 1,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "362665d3-b28d-11ed-80d2-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": 22658400,
+            "quantity": 33,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "1a8df2ff-cc58-11ed-80d2-1402ec7abf4d",
+            "managerName": "Аппорт Андрей",
+            "amount": 195618809,
+            "quantity": 100,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "ca20454f-cc5b-11ed-80d2-1402ec7abf4d",
+            "managerName": "Маркевичюс Денис",
+            "amount": 154199971,
+            "quantity": 101,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "55a8637b-cd45-11ed-80d2-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": -6757000,
+            "quantity": 2,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "2ce469d9-cd48-11ed-80d2-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": -208000,
+            "quantity": 1,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "4e5f2810-d2d4-11ed-80d3-1402ec7abf4d",
+            "managerName": "Архипова Людмила",
+            "amount": 17369700,
+            "quantity": 31,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "b11371ce-dda3-11ed-80d3-1402ec7abf4d",
+            "managerName": "леонова татьяна",
+            "amount": -3884000,
+            "quantity": 2,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "9e721fe3-ed6d-11ed-80d3-1402ec7abf4d",
+            "managerName": "Скабелин Андрей",
+            "amount": 386188534,
+            "quantity": 172,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "19a3e212-3042-11ee-80d3-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": -1311600,
+            "quantity": 2,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "0d80f015-5dd6-11ee-80d4-1402ec7abf4d",
+            "managerName": "Бобрович Анжелика",
+            "amount": -580900,
+            "quantity": 3,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "2f6d498e-68a3-11ee-80d4-1402ec7abf4d",
+            "managerName": "Плахотнюк Иван",
+            "amount": 56561412,
+            "quantity": 45,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "04fb7c37-b02a-11ee-80d6-1402ec7abf4d",
+            "managerName": "Головачева Алена",
+            "amount": -4088799,
+            "quantity": 6,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "4e28a5a7-be57-11ee-80d6-1402ec7abf4d",
+            "managerName": "Головачев Александр",
+            "amount": 11136499,
+            "quantity": 15,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "69e87605-f7a3-11ee-80d6-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": -3490200,
+            "quantity": 2,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "428bf58e-3387-11ef-80d7-1402ec7abf4d",
+            "managerName": "Голубец Владислав",
+            "amount": -64900,
+            "quantity": 1,
+            "assistantAmount": -64900,
+            "assistantQuantity": 1
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "d7d688ed-3e9b-11ef-80d7-1402ec7abf4d",
+            "managerName": "Брюханова Екатерина",
+            "amount": -699900,
+            "quantity": 1,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "c390b1b8-4993-11ef-80d7-1402ec7abf4d",
+            "managerName": "Белоусов Сергей",
+            "amount": 142006485,
+            "quantity": 91,
+            "assistantAmount": 335200,
+            "assistantQuantity": 3
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "2b312bcd-602f-11ef-80d8-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": 6155500,
+            "quantity": 9,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "7109da4b-700c-11ef-80d8-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": 200000,
+            "quantity": 1,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "b8684099-74a8-11ef-80d8-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": 123907460,
+            "quantity": 79,
+            "assistantAmount": 465000,
+            "assistantQuantity": 2
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "9a92e59e-822d-11ef-80d8-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": 31993170,
+            "quantity": 66,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        },
+        {
+            "division": "3d739a92-b28d-11ed-80d2-1402ec7abf4d",
+            "divisionName": "Солнечный (Красноярск) ЛО_CENALOM",
+            "manager": "8734905e-9041-11ef-80d9-1402ec7abf4d",
+            "managerName": "Самостоятельный покупатель Солнечный (Красноярск) ЛО_CENALOM",
+            "amount": 4827300,
+            "quantity": 9,
+            "assistantAmount": 0,
+            "assistantQuantity": 0
+        }
+    ],
+    "totalAmount": 1338034892,
+    "totalQuantity": 886,
+    "totalAssistantAmount": 863300,
+    "totalAssistantQuantity": 7
+}

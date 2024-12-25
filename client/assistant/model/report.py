@@ -1,20 +1,16 @@
 from pydantic import BaseModel
 
-
-class Division(BaseModel):
-    guid: str
-
-
 class ReportRequest(BaseModel):
     dateStart: str | None = None
     dateEnd: str | None = None
-    divisions: list[Division] | None = None
+    divisions: list[str] | None = None
 
 
 class InfoReport(BaseModel):
     division: str
     divisionName: str
     manager: str
+    managerName: str
     amount: int
     quantity: int
     assistantAmount: int

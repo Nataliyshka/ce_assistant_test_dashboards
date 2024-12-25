@@ -3,6 +3,8 @@ from client.assistant.enum import RoleUser
 
 
 def test_get_stores_all():
+    """Тест получения списка магазинов
+    """
     admin_user = RoleUser.ADMIN
     client_assistant = AssistantClient(admin_user)
 
