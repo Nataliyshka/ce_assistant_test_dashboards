@@ -20,7 +20,7 @@ class InfoReport(BaseModel):
 class ReportResponse(BaseModel):
     dateStart: str
     dateEnd: str
-    data: list[InfoReport]
+    data: list[InfoReport] | None = None
     totalAmount: int
     totalQuantity: int
     totalAssistantAmount: int

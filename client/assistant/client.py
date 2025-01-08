@@ -4,6 +4,7 @@ from client.assistant.enum import RoleUser
 from client.assistant.model.auth import AuthRequest, AuthResponse
 from client.assistant.model.report import ReportRequest, ReportResponse
 from client.assistant.model.store import StoreResponse
+from client.assistant.model.exceles import ExcelRequest
 from client.utils import check_status_code
 from config import settings
 
@@ -62,6 +63,30 @@ class AssistantClient:
         assert check_status_code(resp.status_code), "status code is not positive"
         validated_resp = StoreResponse(**resp.json())
         return validated_resp
+    
+
+    def post_report_sales_excel(
+        self,
+        dateStart: str | None = None,
+        dateEnd: str | None = None,
+        divisions: list[str] | None = None,
+    ) -> bytes:
+        """Получение отчета о продажах в формате Excel
+        Args:
+            dateStart (str | None): Дата начала периода
+            dateEnd (str | None): Дата конца периода
+            divisions (list[str] | None): Список подразделений
+        Returns:
+            bytes: Содержимое Excel файла в виде байтов
+        """
+        req = ExcelRequest(dateStart=dateStart, dateEnd=dateEnd, divisions=divisions)
+        resp = self.__session.post(
+            self.__base_url__ + "/api/report/sales/excel", 
+            json=req.model_dump()
+        )
+        assert check_status_code(resp.status_code), "status code is not positive"
+        
+        return resp.content
     
 
     def close_session(self) -> None:
